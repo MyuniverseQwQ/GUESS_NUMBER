@@ -9,9 +9,9 @@ while True:
     if guess < number:
         print('Ваше число меньше того, что загадано.')
     
+    elif guess > number:
+        print("Ваше число больше того, что загадано.")
+    
     elif guess == number:
         break
-    
-    else:
-        print("Ваше число больше того, что загадано.")
 print(f"Вы угадали, это было число: {number}")
